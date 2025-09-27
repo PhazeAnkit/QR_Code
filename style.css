@@ -15,19 +15,13 @@ body {
   width: 320px;
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
-  padding: 24px;
+  padding: 16px;
   box-sizing: border-box;
   background-color: white;
   border-radius: 20px;
   flex-grow: 0;
-}
-
-.container .upper-body {
-  box-sizing: border-box;
-  width: 288px;
-  height: 288px;
+  gap: ;
 }
 
 .container img {
@@ -36,14 +30,22 @@ body {
   border-radius: 5px;
 }
 
-.container .up-text {
+.container .lower-body {
+  gap: 16px;
+  padding: 0 16px;
+}
+
+.container .up-text,
+.container .low-text {
   text-align: center;
+}
+
+.container .up-text {
   font-size: 22px;
   font-weight: 700;
 }
 
 .container .low-text {
-  text-align: center;
   font-size: 15px;
   font-weight: 400;
 }
